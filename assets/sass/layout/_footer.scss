@@ -1,4 +1,6 @@
 .pie{
+    
+    clear: both;
 
     .pieNewsletter{
         width: 100%;
@@ -13,12 +15,17 @@
         .pieNewsletterGroup{
             display: inline-block;
             border-width: 0;
-            font-size: $sm-md;
-            padding: 5px 10px;
+            font-size: $md-lg;
+            //padding: 0.5rem 0.6rempx;
+
+            input{
+                font-size: $md-lg;
+            }
 
             button{
                 background-color: $coral;
                 color: $blanco;
+                font-size: $md-lg;
             }
             
         }
@@ -27,5 +34,16 @@
         width: 100%;
         margin: 0 auto;
         text-align: center;
+        font-size: $md-lg;
+    }
+}
+
+
+@media (min-width:992px){
+    .pie{
+    
+        .pieDerechos{
+            font-size: $sm-md;
+        }
     }
 }

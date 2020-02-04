@@ -2,10 +2,10 @@
 
 .header{
     width: 100%;
-    border-bottom: 0.0625rem solid $gris;
+    padding: 1rem;
    
     .menu{
-        padding: 0.65rem;
+        border-bottom: 0.0625rem solid $gris;
 
         .menuLogo{
             width: 30%;
@@ -15,9 +15,11 @@
             .menuLogoAncla{
                 text-decoration: none;
                 text-transform: uppercase;
+                // padding-left: 0.5rem;
 
                 h3{
                     font-family: $relaway;
+                    // font-family: $monospace;
                     font-weight: $relawayBold;
                     font-size: $large;
                     color: $negro;
@@ -29,6 +31,7 @@
             width: 69%;
             display: inline-block;
             text-align: right;
+            padding-right: 2rem;
 
             li{
                 display: inline-block;
@@ -69,21 +72,3 @@
     }
 }
 
- .padre{
-     width: 80%;
-     padding: 0.5rem auto;
-     .hijo{
-        background: red;
-         text-align: center;
-         display: none;
-     }
- }
- @media (min-width: 768px){
-    .padre .hijo{
-         display: block;
-         color: black;
-     }
-     .hermano{
-         color: blue;
-     }
- }
