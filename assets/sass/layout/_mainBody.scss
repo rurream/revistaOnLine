@@ -1,0 +1,69 @@
+.main{
+    width: 100%;
+    margin: 0 auto;
+
+    .mainCentral{
+        width: 73%;
+        float: left;
+
+        .noticia{
+            width: 32%;
+            display: inline-block;
+            margin: 0.3125rem;
+            cursor: pointer;
+
+            .cabecera{
+
+                h2{
+
+                }
+            }
+            .cuerpo{
+
+                img{
+                    width: 100%;
+                    height: 60vh;
+                }
+                p{
+                    padding: 0.3125rem 0.625rem;
+                }
+            }
+        }
+    }
+    .mainDer{
+        width: 26%;
+        float: left;
+
+        .mainDerCabeceraListado{
+            width: 80%;
+            border-bottom: 0.0625rem solid $gris;
+        }
+        .mainDerTags{
+            width: 80%;
+            border-bottom: 0.0625rem solid $gris;
+
+            ul{
+                padding: 0;
+                list-style: none;
+
+                li{
+                    padding: 0.125rem 0.25rem;
+                    background-color: $celeste;
+                    margin-right: 0.0625rem;
+                    color: $blanco;
+                    display: inline-block;
+                }
+            }
+        }
+        .mainDerNoticiasDestacadas{
+            width: 80%;
+            margin-bottom: 3.125rem;
+
+            img{
+                width: 100%;
+                height: 12.5rem;
+            }
+        }
+    }
+
+}

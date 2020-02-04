@@ -1,0 +1,89 @@
+//header 
+
+.header{
+    width: 100%;
+    border-bottom: 0.0625rem solid $gris;
+   
+    .menu{
+        padding: 0.65rem;
+
+        .menuLogo{
+            width: 30%;
+            text-transform: uppercase;
+            display: inline-block;
+
+            .menuLogoAncla{
+                text-decoration: none;
+                text-transform: uppercase;
+
+                h3{
+                    font-family: $relaway;
+                    font-weight: $relawayBold;
+                    font-size: $large;
+                    color: $negro;
+                 }
+            }
+         }
+
+         .menuItems{
+            width: 69%;
+            display: inline-block;
+            text-align: right;
+
+            li{
+                display: inline-block;
+                text-transform: uppercase;
+                
+                a{
+                    text-decoration: none;
+                }
+                
+                &.menuItems_ocultable{
+                    display: none;
+                }
+               
+                .input-menu{
+                    border-radius: 1.875rem;
+                }
+            }
+        }
+     }
+}
+
+// Media Query 
+@media (min-width: 768px){
+    .header{
+       
+        .menu{
+           
+             .menuItems{
+               
+                li{
+                  
+                    &.menuItems_ocultable{
+                        display: inline-block;
+                    }
+                }
+            }
+         }
+    }
+}
+
+ .padre{
+     width: 80%;
+     padding: 0.5rem auto;
+     .hijo{
+        background: red;
+         text-align: center;
+         display: none;
+     }
+ }
+ @media (min-width: 768px){
+    .padre .hijo{
+         display: block;
+         color: black;
+     }
+     .hermano{
+         color: blue;
+     }
+ }

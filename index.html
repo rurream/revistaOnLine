@@ -3,12 +3,259 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Desafio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta charset="UTF-8"> -->
+    <title>Rvista OnLine</title>
+
+    <!-- GoogleFonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap" rel="stylesheet">
+
+
+
+
+
+    
+
+
+
+
+
+
+    <!-- Hoja de estilo local -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+
+
+
+    <!-- <style>
+        .padre {
+            width: 80%;
+            padding: 0.5rem auto;
+        }
+
+        .hijo {
+            background: red;
+            text-align: center;
+            display: none;
+            display: block;
+            display: none;
+           
+        }
+
+
+        @media (min-width: 768px) {
+            .hijo {
+                display: block;
+                color: black;
+            }
+
+            .hermano {
+                color: blue;
+            }
+        }
+    </style> -->
+
+
+
 </head>
 
 <body>
-    <div class="contenedor">
+    <div class="padre">
+        <div class="hijo">
+            Prueba
+        </div>
+        <div class="hermano">
+            Prueba de funcionamiento del mediaQuery
+        </div>
+    </div>
+    <!-- Encabezado Menu Navegacion -->
+
+    <head>
+        <div class="header">
+            <nav class="menu">
+                <div class="menuLogo">
+                    <a href="#" class="menuLogoAncla">
+                        <h3>Diario</h3>
+                    </a>
+                </div>
+                <div class="menuItems">
+                    <ul>
+                        <li class="menuItems_ocultable"><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <!-- <li class="menuItems_ocultable2"><a href="#">xxxxxxx</a></li> -->
+                        <li><input class="input-menu" type="text" name="buscar" placeholder="buscar..." /></li>
+                    </ul>
+                </div>
+                <!-- <br><br><br>
+                <div class="menuItemsY">
+                    <ul>
+                        <div class="divY menuItems_ocultableY">
+                            <li><a href="#">Nosotros</a></li>
+                        </div>
+                        <div class="divY">
+                            <li><a href="#">Contacto</a></li>
+                        </div>
+                        <div class="divY menuItems_ocultableY">
+                            <li><a href="#">xxxxxxx</a></li>
+                        </div>
+                        <div class="divY">
+                            <li><input class="input-menuY" type="text" name="buscar" placeholder="buscar..." /></li>
+                        </div>
+
+
+
+
+                    </ul>
+                </div> -->
+            </nav>
+            <!-- <hr> -->
+        </div>
+
+    </head>
+
+    <!-- Contenido Central -->
+    <main class="main">
+        <div class="mainCentral">
+            <div class="noticia">
+                <div class="cabecera">
+                    <h2>
+                        Lorem ipsum dolor sit amet,
+                    </h2>
+                </div>
+                <div class="cuerpo">
+                    <img src="https://picsum.photos/200/300?random=1" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="noticia">
+                <div class="cabecera">
+                    <h2>
+                        Lorem ipsum dolor sit amet,
+                    </h2>
+                </div>
+                <div class="cuerpo">
+                    <img src="https://picsum.photos/200/300?random=2" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="noticia">
+                <div class="cabecera">
+                    <h2>
+                        Lorem ipsum dolor sit amet,
+                    </h2>
+                </div>
+                <div class="cuerpo">
+                    <img src="https://picsum.photos/200/300?random=3" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="noticia">
+                <div class="cabecera">
+                    <h2>
+                        Lorem ipsum dolor sit amet,
+                    </h2>
+                </div>
+                <div class="cuerpo">
+                    <img src="https://picsum.photos/200/300?random=4" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="noticia">
+                <div class="cabecera">
+                    <h2>
+                        Lorem ipsum dolor sit amet,
+                    </h2>
+                </div>
+                <div class="cuerpo">
+                    <img src="https://picsum.photos/200/300?random=5" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+            <div class="noticia">
+                <div class="cabecera">
+                    <h2>
+                        Lorem ipsum dolor sit amet,
+                    </h2>
+                </div>
+                <div class="cuerpo">
+                    <img src="https://picsum.photos/200/300?random=6" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mainDer">
+            <div class="mainDerCabeceraListado">
+                <h1>Nosotros </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                </p>
+            </div>
+            <div class="mainDerTags">
+                <h1>Tags </h1>
+                <ul>
+                    <li>Viajes</li>
+                    <li>Noticias</li>
+                    <li>Comida</li>
+                </ul>
+            </div>
+            <div class="mainDerNoticiasDestacadas">
+                <h1>Destacados </h1>
+                <div class="mainDerNoticiasDestacadasItem">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <img src="https://picsum.photos/200/200?random=7" />
+                </div>
+                <div class="mainDerNoticiasDestacadasItem">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <img src="https://picsum.photos/200/200?random=8" />
+                </div>
+                <div class="mainDerNoticiasDestacadasItem">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <img src="https://picsum.photos/200/200?random=9" />
+                </div>
+            </div>
+        </div>
+        <article>
+
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="pie">
+        <div class="pieNewsletter">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            <div class="pieNewsletterGroup">
+                <input type="text" name=""><button>Suscríbete</button>
+            </div>
+        </div>
+        <div class="pieDerechos">
+            <p>Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- <div class="contenedor">
         <div class="menu">
             <div class="logo">Diario</div>
             <div class="nav">
@@ -144,7 +391,7 @@
         <div class="footer">
             <p>Todos los derechos reservados</p>
         </div>
-    </div>
+    </div> -->
 </body>
 
 </html>

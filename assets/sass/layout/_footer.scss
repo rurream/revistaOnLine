@@ -1,0 +1,31 @@
+.pie{
+
+    .pieNewsletter{
+        width: 100%;
+        background-color: $colorPie;
+        text-align: center;
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+
+        h2{
+            font-size: $md-lg;
+        }
+        .pieNewsletterGroup{
+            display: inline-block;
+            border-width: 0;
+            font-size: $sm-md;
+            padding: 5px 10px;
+
+            button{
+                background-color: $coral;
+                color: $blanco;
+            }
+            
+        }
+    }
+    .pieDerechos{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

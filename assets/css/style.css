@@ -1,0 +1,155 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  border-bottom: 0.0625rem solid gray;
+}
+.header .menu {
+  padding: 0.65rem;
+}
+.header .menu .menuLogo {
+  width: 30%;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.header .menu .menuLogo .menuLogoAncla {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header .menu .menuLogo .menuLogoAncla h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #000;
+}
+.header .menu .menuItems {
+  width: 69%;
+  display: inline-block;
+  text-align: right;
+}
+.header .menu .menuItems li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+.header .menu .menuItems li a {
+  text-decoration: none;
+}
+.header .menu .menuItems li.menuItems_ocultable {
+  display: none;
+}
+.header .menu .menuItems li .input-menu {
+  border-radius: 1.875rem;
+}
+
+@media (min-width: 768px) {
+  .header .menu .menuItems li.menuItems_ocultable {
+    display: inline-block;
+  }
+}
+.padre {
+  width: 80%;
+  padding: 0.5rem auto;
+}
+.padre .hijo {
+  background: red;
+  text-align: center;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .padre .hijo {
+    display: block;
+    color: black;
+  }
+
+  .hermano {
+    color: blue;
+  }
+}
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+.main .mainCentral {
+  width: 73%;
+  float: left;
+}
+.main .mainCentral .noticia {
+  width: 32%;
+  display: inline-block;
+  margin: 0.3125rem;
+  cursor: pointer;
+}
+.main .mainCentral .noticia .cuerpo img {
+  width: 100%;
+  height: 60vh;
+}
+.main .mainCentral .noticia .cuerpo p {
+  padding: 0.3125rem 0.625rem;
+}
+.main .mainDer {
+  width: 26%;
+  float: left;
+}
+.main .mainDer .mainDerCabeceraListado {
+  width: 80%;
+  border-bottom: 0.0625rem solid gray;
+}
+.main .mainDer .mainDerTags {
+  width: 80%;
+  border-bottom: 0.0625rem solid gray;
+}
+.main .mainDer .mainDerTags ul {
+  padding: 0;
+  list-style: none;
+}
+.main .mainDer .mainDerTags ul li {
+  padding: 0.125rem 0.25rem;
+  background-color: steelblue;
+  margin-right: 0.0625rem;
+  color: white;
+  display: inline-block;
+}
+.main .mainDer .mainDerNoticiasDestacadas {
+  width: 80%;
+  margin-bottom: 3.125rem;
+}
+.main .mainDer .mainDerNoticiasDestacadas img {
+  width: 100%;
+  height: 12.5rem;
+}
+
+.pie .pieNewsletter {
+  width: 100%;
+  background-color: #f2f4f5;
+  text-align: center;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+}
+.pie .pieNewsletter h2 {
+  font-size: 1.5rem;
+}
+.pie .pieNewsletter .pieNewsletterGroup {
+  display: inline-block;
+  border-width: 0;
+  font-size: 0.825rem;
+  padding: 5px 10px;
+}
+.pie .pieNewsletter .pieNewsletterGroup button {
+  background-color: coral;
+  color: white;
+}
+.pie .pieDerechos {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
